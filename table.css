@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+}
+
+html{
+     background-color:rgb(109, 209, 216);
+}
+
+table {
+     border:1px solid rgb(0, 0, 0);
+     margin-left: 5%;
+}
+
+td {
+    font-size:17px;
+    color:rgb(44, 18, 190);
+    font-weight:400;
+    font-family: sans-serif;
+    border:1px solid black;
+}
+
+tr {border: 2px solid black;}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise phase</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+<form>
+
+<div class="caption">id :</div>
+<input type="text" name="id">
+
+<div class="caption">First Name :</div>
+<input type="text" name="FirstName">
+
+<div class="caption">Last Name :</div>
+<input type="text" name="LastName">
+
+<div class="caption">Profil URL :</div>
+<input type="text" name="ProfilUrl" id="PUrl"> 
+
+<div class="caption">Gender :</div>
+<input type="radio" value="male" id="male" name="gender"/><label for="male">Male</label>
+<input type="radio" value="female" id="female" name="gender"/><label for="Female">Female</label>
+
+<div class="caption">Hobby :</div>
+<select name="hobby">
+    <option id="hobby">My hobby is :</option>
+    <option value="Netflix">Netflix & chill</option>
+    <option value="ComputerGames">Computer games</option>
+    <option value="Sleeping">Sleeping</option>
+    <option value="TakingPicture">Taking pictures</option>
+</select><br><br>
+
+<button onclick="add()" id="btn">Add Me</button><br><br>
+</form>
+
+<div class="list">
+</div>
+
+
+    <script src="table.js"></script>
+</body>
+</html>
